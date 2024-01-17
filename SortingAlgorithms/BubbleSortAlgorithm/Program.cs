@@ -7,13 +7,13 @@ int[] numbers = [23, 56, 2, 19, 34, 7, 41, 13, 68, 10, 29, 50, 15, 37,
     52, 46, 67, 63, 33, 51, 53, 38, 32, 69, 55, 20, 62, 22, 26, 9, 43, 40, 57
 ];
 
-string[] names = ["Kirk Hammett", "James Hatfield", "Robert Trujillo", "Lars Ulrich"];
+string[] metallica = ["Kirk Hammett", "James Hatfield", "Robert Trujillo", "Lars Ulrich"];
 
 BubbleSort(numbers);
 Console.WriteLine(string.Join(", ", numbers));
 
-BubbleSort(names);
-Console.WriteLine(string.Join(", ", names));
+BubbleSort(metallica);
+Console.WriteLine(string.Join(", ", metallica));
 
 
 void BubbleSort<T>(IList<T> values) where T: IComparable
